@@ -9,31 +9,56 @@
 
        <Label Text="Contatori" FontSize="40"/>
             
+          
+            
+       <BoxView HeightRequest="1" BackgroundColor= "Black"/>
+
+              <ScrollView>
+        <StackLayout>
+            
+       <BoxView HeightRequest="60"  />
+
        <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
             
        <BoxView HeightRequest="60"  />
             
-            <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
-            
-       <BoxView HeightRequest="60"  />
-            
-            <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
             
        <BoxView HeightRequest="60" />
             
-            <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
             
        <BoxView HeightRequest="60"/>
             
-            <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
             
        <BoxView HeightRequest="60"/>
             
-            <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+            
+       <BoxView HeightRequest="60"/>
+
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+            
+       <BoxView HeightRequest="60"/>
+
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+            
+       <BoxView HeightRequest="60"/>
+
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
+            
+       <BoxView HeightRequest="60"/>
+
+       <BoxView HeightRequest="1" BackgroundColor= "Silver"/>
             
        <BoxView HeightRequest="60"/>
 
 
+
+            
+        </StackLayout>
+    </ScrollView>
 
 
        <Button HorizontalOptions="Fill" Text= "Nuovo Contatore" BackgroundColor="#007AFF" TextColor="White" />  
