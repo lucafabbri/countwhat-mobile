@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="countwhat.Pages.NewCounter" 
+    x:Class="countwhat.Pages.NewCounterPage" 
     Padding ="20">
     
 	<ContentPage.Content>
         <StackLayout>
 
-           <Label Text="Contatori" FontSize="40"/>
+           <Label Text="Nuovo contatore" FontSize="40"/>
         <BoxView HeightRequest="1" BackgroundColor= "Black"/>
+        <BoxView HeightRequest="60" BackgroundColor= "White"/>
         <Entry Text="Nome del contatore" TextColor="Silver"/>
-            
+        <Picker>
+                <x:String>"1"</x:String> 
+                <x:String>"2"</x:String>
+               
+         </Picker>
 
-
+         <Button HorizontalOptions="Fill" Text= "Crea nuovo contatore" BackgroundColor="#007AFF" TextColor="White" /> 
         </StackLayout>
      
 

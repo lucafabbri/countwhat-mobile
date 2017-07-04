@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace countwhat.Pages
 {
-    public partial class ConterPage : ContentPage
+    public partial class CounterPage : ContentPage
     {
-        public ConterPage()
+        public CounterPage()
         {
             InitializeComponent();
         }

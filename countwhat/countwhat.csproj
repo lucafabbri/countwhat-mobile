@@ -30,16 +30,16 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="countwhatPage.xaml" />
-    <EmbeddedResource Include="Pages\loginPage.xaml">
+    <EmbeddedResource Include="Pages\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\NewAccount.xaml">
+    <EmbeddedResource Include="Pages\RegisterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\CounterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\NewCounter.xaml">
+    <EmbeddedResource Include="Pages\NewCounterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -59,17 +59,17 @@
     <Compile Include="Services\CounterService.cs" />
     <Compile Include="Models\CounterDataModel.cs" />
     <Compile Include="Services\HttpClientErrorException.cs" />
-    <Compile Include="Pages\loadingPage.cs">
-      <DependentUpon>loginPage.xaml</DependentUpon>
+    <Compile Include="Pages\LoginPage.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\NewAccount.cs">
-      <DependentUpon>NewAccount.xaml</DependentUpon>
+    <Compile Include="Pages\RegisterPage.cs">
+      <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\CounterPage.cs">
       <DependentUpon>CounterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\NewCounter.cs">
-      <DependentUpon>NewCounter.xaml</DependentUpon>
+      <DependentUpon>NewCounterPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
