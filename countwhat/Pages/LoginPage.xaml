@@ -8,12 +8,12 @@
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
             
           <Label HorizontalOptions="CenterAndExpand" Text="Effettua l'accesso" />
-          <Entry Text=" Email" TextColor="Silver"></Entry>
-          <Entry Text=" Password" TextColor="Silver"> </Entry>  
+          <Entry x:Name="email" Text=" Email" TextColor="Silver"></Entry>
+          <Entry x:Name="password" Text=" Password" TextColor="Silver"> </Entry>  
             
           <Button HorizontalOptions="FillAndExpand" Text="Login" BorderColor="#007AFF" BorderWidth = "1" />
           <Label HorizontalOptions="CenterAndExpand">Non hai ancora un account ?</Label>  
-          <Button HorizontalOptions="Fill" Text= "Crea un account" BackgroundColor="#007AFF" TextColor="White" /> 
+          <Button HorizontalOptions="Fill" Text= "Crea un account" BackgroundColor="#007AFF" TextColor="White" Clicked="Handle_ClickedAsync" /> 
             
         </StackLayout>
     </ContentPage.Content>

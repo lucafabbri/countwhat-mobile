@@ -80,5 +80,15 @@ namespace countwhat.Services
 			}
 			return false;
 		}
-	}
+
+        public static implicit operator AccountService(bool v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator AccountService(AccountService v)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
